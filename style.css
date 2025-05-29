@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    flex-direction: column;
+}
+
+#logo{
+    width: 35vw;
+}
+
+h1{
+    color: aliceblue;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
+#name{
+    color: rgb(212, 43, 122);
+    font-family: 40px;
+}
+
+#va{
+    color: rgb(43, 206, 212);
+    font-size: 40px;
+}
+
+#voice{
+    width: 130px;
+    display: none;
+}
+
+#btn{
+    width: 35vw;
+    background: linear-gradient(to right, rgb(21, 145, 207), rgb(201, 41, 116));
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 2px 2px 10px rgb(21, 145, 207),2px 2px 10px rgb(201, 41, 116);
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#btn:hover{
+    box-shadow: 2px 2px 20px rgb(21, 145, 207),2px 2px 10px rgb(201, 41, 116);
+    letter-spacing: 2px;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 600px) {
+    #logo {
+        width: 70vw;
+    }
+
+    h1 {
+        font-size: 7vw;
+    }
+
+    #btn {
+        font-size: 16px;
+        padding: 8px;
+        width: 80vw;
+        text-align: center;
+    }
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    #logo {
+        width: 70vw;
+    }
+
+    h1 {
+        font-size: 7vw;
+    }
+
+    #btn {
+        font-size: 16px;
+        padding: 8px;
+        width: 80vw;
+        text-align: center;
+    }
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 820px) {
+    #logo {
+        width: 70vw;
+    }
+
+    h1 {
+        font-size: 7vw;
+    }
+
+    #btn {
+        font-size: 16px;
+        padding: 8px;
+        width: 80vw;
+        text-align: center;
+    }
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 912px) {
+    #logo {
+        width: 70vw;
+    }
+
+    h1 {
+        font-size: 7vw;
+    }
+
+    #btn {
+        font-size: 16px;
+        padding: 8px;
+        width: 80vw;
+        text-align: center;
+    }
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 360px) {
+    #logo {
+        width: 70vw;
+    }
+
+    h1 {
+        font-size: 7vw;
+    }
+
+    #btn {
+        font-size: 16px;
+        padding: 8px;
+        width: 80vw;
+        text-align: center;
+    }
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 1024px) {
+    #logo {
+        width: 70vw;
+    }
+
+    h1 {
+        font-size: 7vw;
+    }
+
+    #btn {
+        font-size: 16px;
+        padding: 8px;
+        width: 80vw;
+        text-align: center;
+    }
+}
